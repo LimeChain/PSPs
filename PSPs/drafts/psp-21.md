@@ -1,7 +1,7 @@
 # Token Standard With Transfer Offer Handlers
 
 - **PSP Number:** [To be assigned (=number of the initial PR to the PSPs repo)]
-- **Authors:** @vminkov @limechain
+- **Authors:** Veliko Minkov <github.com/vminkov, veliko.minkov@limechain.tech>
 - **Status:** Draft
 - **Created:** 2021-06-01
 - **Reference Implementation** pseudocode
@@ -36,7 +36,7 @@ asset-backed tokens, allowing things like
 - leaving unsolicited token transfers as not accepted by default or even reject them automatically
 - automatically convert the transferred asset to another desired asset by using a DEX router
 - split the transaction costs arbitrary between the sender and the receiver by refunding the sender in the same tx or
-converting a chunk of the asset to the native token, so the validator fee is topped up
+ converting a chunk of the asset to the native token, so the validator fee is topped up
 - require prior to the tx or subsequently do KYC/AML checks before allowing the token asset to be added in the cold
   wallet/smart contract
 - cross-chain bridges will be able to support direct transfer offers made from the wallet apps UI standard transfer functions
@@ -283,3 +283,4 @@ No tests yet.
 
 ## Copyright
 [no copyright](https://creativecommons.org/publicdomain/zero/1.0/).
+
