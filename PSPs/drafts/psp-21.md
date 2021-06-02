@@ -1,4 +1,4 @@
-# Token Standard With Transfer Offer Handlers
+# Fungible Asset Token Standard With Transfer Offer Handlers
 
 - **PSP Number:** [To be assigned (=number of the initial PR to the PSPs repo)]
 - **Authors:** Veliko Minkov <github.com/vminkov, veliko.minkov@limechain.tech>
